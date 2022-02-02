@@ -9,7 +9,7 @@ resultado = None
 if st.button("Calcular"):
      if choice == "Suma":
          resultado = num1 + num2
-     elif choice == "resta":
+     elif choice == "Resta":
          resultado = num1 - num2
 
 
