@@ -17,4 +17,4 @@ if st.button("Calcular"):
         resultado = num1/num2
 
     st.write("El resultado es " + str(resultado))
-#def calculadora
+#def calculadora()
