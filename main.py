@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Calculadora")
 choice = st.selectbox("Que quieres hacer?", ["Suma", "Resta", "Multiplicacion", "Division", "Media"])
-num1 = st.number_input("Escge un primer numero:")
+num1 = st.number_input("Escge un primer numero:", int)
 num2 = st.number_input("Escoge u segundo numero:")
 
 resultado = None
